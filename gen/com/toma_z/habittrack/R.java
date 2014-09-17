@@ -13,8 +13,28 @@ public final class R {
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
+    public static final class id {
+        public static final int editText1=0x7f060000;
+        public static final int frame_calendar=0x7f060005;
+        public static final int frame_detail=0x7f060004;
+        public static final int frame_summery=0x7f060003;
+        public static final int img_face=0x7f060001;
+        public static final int list_habit=0x7f060006;
+        public static final int txt_name=0x7f060002;
+    }
+    public static final class layout {
+        public static final int dialog_check=0x7f030000;
+        public static final int dialog_new_task=0x7f030001;
+        public static final int layout_calendar=0x7f030002;
+        public static final int layout_detail=0x7f030003;
+        public static final int layout_repeat_type=0x7f030004;
+        public static final int layout_summery=0x7f030005;
+        public static final int list_habit=0x7f030006;
+        public static final int page_detail=0x7f030007;
+        public static final int page_main=0x7f030008;
+    }
     public static final class string {
-        public static final int app_name=0x7f030000;
+        public static final int app_name=0x7f040000;
     }
     public static final class style {
         /** 
@@ -38,10 +58,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f040000;
+        public static final int AppBaseTheme=0x7f050000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f040001;
+        public static final int AppTheme=0x7f050001;
     }
 }
