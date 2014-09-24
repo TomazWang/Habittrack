@@ -1,5 +1,15 @@
 <resources>
 
     <string name="app_name">HabitTrack</string>
+    
+
+	<!-- about detail page -->    
+    <string name="detail_title_goal">Goal :</string>
+    <string name="detail_title_description">Description :</string>
+	<string name="detail_default_description">Add some description by click the edit button.</string>
+    
+    <!-- goal type -->
+    <string name="goal_everyday">Everyday</string>
+
 
 </resources>

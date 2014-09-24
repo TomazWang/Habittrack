@@ -6,7 +6,7 @@
 
     <ImageView
         android:id="@+id/img_face"
-        android:layout_width="77dp"
+        android:layout_width="80dp"
         android:layout_height="match_parent"
         android:src="@drawable/ic_launcher" />
 
