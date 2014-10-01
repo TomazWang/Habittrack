@@ -1,15 +1,36 @@
 <resources>
 
     <string name="app_name">HabitTrack</string>
-    
 
-	<!-- about detail page -->    
+    <!-- about detail page -->
     <string name="detail_title_goal">Goal :</string>
     <string name="detail_title_description">Description :</string>
-	<string name="detail_default_description">Add some description by click the edit button.</string>
-    
+    <string name="detail_default_description">Add some description by click the edit button.</string>
+
     <!-- goal type -->
     <string name="goal_everyday">Everyday</string>
 
+    <!-- NewTask -->
+    
+    <string name="newTask_title">New Task</string>
+    <string name="newTask_newTaskName">New Task Name</string>
+    <string name="newTask_planTitle">Plan :</string>
+    <string name="newTask_planContent_type_fixed">Fixed</string>
+    <string name="newTask_planContent_type_flexible">Flexible</string>
+    <string name="newTask_planeContent_dayPer">day(s) per</string>
 
+    <!-- Weekday names -->
+    <string name="weekday_letter_sunday">S</string>
+    <string name="weekday_letter_monday">M</string>
+    <string name="weekday_letter_tuesday">T</string>
+    <string name="weekday_letter_wednesday">W</string>
+    <string name="weekday_letter_thursday">T</string>
+    <string name="weekday_letter_friday">F</string>
+    <string name="weekday_letter_saturday">S</string>
+    
+    
+    <!-- period units  -->
+	<string name="period_unit_month">Mon.</string>
+	<string name="period_unit_week">Week</string>
+	<string name="period_unit_year">Year</string>
 </resources>
