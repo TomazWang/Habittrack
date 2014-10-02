@@ -1,7 +1,5 @@
 package com.toma_z.habittrack.fragment.dialog;
 
-import java.util.zip.Inflater;
-
 import com.toma_z.habittrack.R;
 
 import android.app.AlertDialog;
@@ -10,27 +8,25 @@ import android.app.DialogFragment;
 import android.app.AlertDialog.Builder;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class NewTaskDialogFragment extends DialogFragment {
+public class NewHabitDialogFragment extends DialogFragment {
 
 	private View view;
 
 	private View createView() {
 
 		View view = getActivity().getLayoutInflater().inflate(
-				R.layout.dialog_new_task, null, false);
+				R.layout.dialog_new_habit, null, false);
 
 		// -- get widgets
 
-		EditText txt_taskName = (EditText) view
-				.findViewById(R.id.txt_newTaskName);
+		EditText txt_habitName = (EditText) view
+				.findViewById(R.id.txt_newHabitName);
 
 		Spinner spinner_plan_type = (Spinner) view
 				.findViewById(R.id.spinner_plan_type);
@@ -93,7 +89,7 @@ public class NewTaskDialogFragment extends DialogFragment {
 		} else {
 			builder.setView(view).setPositiveButton("OK", null)
 					.setNegativeButton("Cancel", null)
-					.setTitle(R.string.newTask_title);
+					.setTitle(R.string.newHabit_title);
 			return builder.create();
 		}
 	}

@@ -3,7 +3,7 @@ package com.toma_z.habittrack.cls;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Task implements Parcelable{
+public class Habit implements Parcelable{
 
 	@Override
 	public int describeContents() {

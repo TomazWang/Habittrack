@@ -1,6 +1,6 @@
 package com.toma_z.habittrack;
 
-import com.toma_z.habittrack.fragment.dialog.NewTaskDialogFragment;
+import com.toma_z.habittrack.fragment.dialog.NewHabitDialogFragment;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity {
 		switch (item.getItemId()) {
 
 		case R.id.menuAction_newTask:
-			NewTaskDialogFragment newTaskDialog = new NewTaskDialogFragment();
+			NewHabitDialogFragment newTaskDialog = new NewHabitDialogFragment();
 			newTaskDialog.show(getFragmentManager(), null);
 			break;
 

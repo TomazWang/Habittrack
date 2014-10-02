@@ -10,14 +10,14 @@
     <!-- goal type -->
     <string name="goal_everyday">Everyday</string>
 
-    <!-- NewTask -->
+    <!-- Newhabit -->
     
-    <string name="newTask_title">New Task</string>
-    <string name="newTask_newTaskName">New Task Name</string>
-    <string name="newTask_planTitle">Plan :</string>
-    <string name="newTask_planContent_type_fixed">Fixed</string>
-    <string name="newTask_planContent_type_flexible">Flexible</string>
-    <string name="newTask_planeContent_dayPer">day(s) per</string>
+    <string name="newHabit_title">New Habit</string>
+    <string name="newHabit_newHabitName">New Habit Name</string>
+    <string name="newHabit_planTitle">Plan :</string>
+    <string name="newHabit_planContent_type_fixed">Fixed</string>
+    <string name="newHabit_planContent_type_flexible">Flexible</string>
+    <string name="newHabit_planeContent_dayPer">day(s) per</string>
 
     <!-- Weekday names -->
     <string name="weekday_letter_sunday">S</string>
