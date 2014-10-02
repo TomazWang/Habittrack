@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="period_units">
+        <item>@string/period_unit_week</item>
+        <item>@string/period_unit_month</item>
+        <item>@string/period_unit_year</item>
+    </string-array>
+    <string-array name="plan_types">
+        <item>@string/newTask_planContent_type_fixed</item>
+        <item>@string/newTask_planContent_type_flexible</item>
+    </string-array>
+
+</resources>

@@ -25,6 +25,7 @@ public class LoadingActivity extends Activity {
 	private void nextPage() {
 		startActivity(new Intent().setClass(LoadingActivity.this,
 				MainActivity.class));
+		this.finish();
 	}
 
 	private void showtitles() {

@@ -1,1 +1,12 @@
 /classes/
+/res/
+/dexedLibs/
+
+# specific file type
+
+*.dex
+*.xml
+*.txt
+*.cache
+*.apk
+*.ap_
