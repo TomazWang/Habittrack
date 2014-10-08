@@ -2,4 +2,9 @@
 <resources>
 
     <color name ="black">#000000</color>
+    
+    
+    <!-- REDs -->
+    
+    <color name ="red">#FF0000</color>
 </resources>

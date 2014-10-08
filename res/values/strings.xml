@@ -14,10 +14,13 @@
     
     <string name="newHabit_title">New Habit</string>
     <string name="newHabit_newHabitName">New Habit Name</string>
-    <string name="newHabit_planTitle">Plan :</string>
+    <string name="newHabit_planTitle">Plan: </string>
     <string name="newHabit_planContent_type_fixed">Fixed</string>
     <string name="newHabit_planContent_type_flexible">Flexible</string>
     <string name="newHabit_planeContent_dayPer">day(s) per</string>
+   	<string name="newHabit_goalTitle">Goal: </string>
+   	<string name="newHabit_goalUnits">times.</string>
+   	<string name="newHabit_description">Description: </string>
 
     <!-- Weekday names -->
     <string name="weekday_letter_sunday">S</string>
@@ -33,4 +36,8 @@
 	<string name="period_unit_month">Mon.</string>
 	<string name="period_unit_week">Week</string>
 	<string name="period_unit_year">Year</string>
+	
+	
+	<!-- others -->
+	<string name="unnamed_habit">Unnamed habit</string>
 </resources>

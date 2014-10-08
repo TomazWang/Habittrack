@@ -5,6 +5,10 @@ import android.os.Parcelable;
 
 public class Habit implements Parcelable{
 
+	
+	
+	
+	
 	@Override
 	public int describeContents() {
 		// TODO Auto-generated method stub

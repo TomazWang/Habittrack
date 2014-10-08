@@ -16,7 +16,6 @@ public class MainActivity extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.page_main);
 		initActionBar();
@@ -59,4 +58,10 @@ public class MainActivity extends ActionBarActivity {
 
 	}
 
+	public void refreshList() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
 }
